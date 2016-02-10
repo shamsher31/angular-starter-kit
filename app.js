@@ -23,5 +23,5 @@ function urlRouterProvider($locationProvider, $urlRouterProvider) {
 	// requireBase: false
  //  });
 
-  $urlRouterProvider.otherwise('/');
+  $urlRouterProvider.otherwise('/login');
 };
