@@ -7,7 +7,9 @@
     "protractor": "^3.1.0"
   },
   "devDependencies": {
+    "bower": "^1.7.7",
     "jasmine-core": "^2.4.1",
+    "http-server": "^0.8.5",
     "karma": "^0.13.19",
     "karma-chrome-launcher": "^0.2.2",
     "karma-jasmine": "^0.3.7",
@@ -17,7 +19,7 @@
     "postinstall": "bower install",
 
     "prestart": "npm install",
-    "start": "python -m SimpleHTTPServer",
+    "start": "http-server -a localhost -p 8000 -c-1",
 
     "pretest": "npm install",
     "test": "karma start karma.conf.js",
