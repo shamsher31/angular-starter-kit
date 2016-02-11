@@ -17,7 +17,11 @@ Before you start using this starter kit, Go through following style guide for be
 #### How to setup
 
 * Install [NodeJs](http://nodejs.org/) which is required for application setup and task automation.
-* Make sure that you have ```paython``` installed in your system to run local http server to serve this application.
+
+* Install node http local server globally to serve your applocation.
+
+   ``` npm install http-server -g ````
+
 * Install [Bower](http://bower.io/) globally.
 
     ``` npm install -g bower ```
