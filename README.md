@@ -20,17 +20,19 @@ Before you start using this starter kit, Go through following style guide for be
 
 * Install node http local server globally to serve your applocation.
 
-   ``` npm install http-server -g ````
+   ``` npm install http-server -g ```
 
 * Install [Bower](http://bower.io/) globally.
 
     ``` npm install -g bower ```
 
-* Clone this repo.
+* Clone this repo. If you just want to start a new project without the commit history then you can do:
 
-    ``` git clone  https://github.com/shamsher31/angular-starter-kit.git```
+   ``` 
+     git clone --depth=1 https://github.com/shamsher31/angular-starter-kit.git <your-project-name> 
+     cd <your-project-name>  
+   ```
 
-* Rename folder name to your project name and change directory ``` cd /yourProjectName```
 * Install bower components and npm package by running following command.
 
    ``` npm install ```
