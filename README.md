@@ -35,7 +35,10 @@ Before you start using this starter kit, Go through following style guide for be
 
 * Install bower components and npm package by running following command.
 
-   ``` npm install ```
+   ``` 
+      npm install 
+      bower install
+   ```
 
 * Once all the bower and npm packges are installed, you can simply run following command to start your applicatoin.
 
