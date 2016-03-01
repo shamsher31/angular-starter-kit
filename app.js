@@ -7,6 +7,7 @@ angular
   'ui.router',
   'ui.bootstrap',
   'LocalStorageModule',
+  'angular-loading-bar',
  
   'directives',
   'services',
