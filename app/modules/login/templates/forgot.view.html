@@ -1,8 +1,13 @@
 <div class="wrapper">
-<form class="form-signin">       
-  <h2 class="form-signin-heading">Forgot Password</h2>
-  <input type="text" class="form-control" name="username" placeholder="Email Address" required="" autofocus="" />
-  <button class="btn btn-lg btn-primary btn-block" type="submit">Reset Password</button>
-  <a ui-sref="login">Login</a>
+<form class="form-center"> 
+  <div class="login-form">      
+    <center><h5>Forgot Password</h5></center>
+    <div class="form-group">
+            <input type="text" class="form-control login-field" value="" placeholder="Enter your email" id="login-name" autofocus="">
+            <label class="login-field-icon fui-user" for="login-name"></label>
+        </div>
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Reset Password</button>
+    <a ui-sref="login">Login</a>
+  </div>
 </form>
 </div>

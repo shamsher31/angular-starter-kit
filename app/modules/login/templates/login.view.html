@@ -1,9 +1,19 @@
 <div class="wrapper">
-<form class="form-signin">       
-  <h2 class="form-signin-heading">Please login</h2>
-  <input type="text" class="form-control" name="username" placeholder="Email Address" required="" autofocus="" />
-  <input type="password" class="form-control" name="password" placeholder="Password" required=""/>      
-  <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
-  <a ui-sref="signup">Signup</a> | <a ui-sref="forgot">Forgot password</a>  
+<form class="form-center">       
+  <div class="login-form">
+    <center><h5>Login</h5></center>  
+    <div class="form-group">
+        <input type="text" class="form-control login-field" value="" placeholder="Enter your email" id="login-name" autofocus="">
+        <label class="login-field-icon fui-user" for="login-name"></label>
+    </div>
+
+    <div class="form-group">
+        <input type="password" class="form-control login-field" value="" placeholder="Password" id="login-pass">
+        <label class="login-field-icon fui-lock" for="login-pass"></label>
+    </div>
+          
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+    <a ui-sref="signup">Signup</a> | <a ui-sref="forgot">Forgot password</a>
+   </div>  
 </form>
 </div>
