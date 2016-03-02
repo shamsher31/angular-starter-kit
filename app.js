@@ -12,17 +12,13 @@ angular
   'directives',
   'services',
   
-  'login'
+  'login',
+  'dashboard'
  
  ])
  .config(['$locationProvider', '$urlRouterProvider', urlRouterProvider]); 
 
 function urlRouterProvider($locationProvider, $urlRouterProvider) {
-  
- //  $locationProvider.html5Mode({
-	// enabled: true,
-	// requireBase: false
- //  });
 
   $urlRouterProvider.otherwise('/login');
 };
