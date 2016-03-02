@@ -2,8 +2,15 @@
 
 angular
  .module('login')
- .controller('LoginCtrl', ['$scope', LoginCtrl]);
+ .controller('LoginCtrl', ['$scope', '$state', 'AuthService', LoginCtrl]);
 
-function LoginCtrl($scope) {
-	$scope.message = "Welcome to awesome login page..";
+function LoginCtrl($scope, $state, AuthService) {
+	
+    $scope.user = {};
+    
+    $scope.submit = function() {
+        
+        AuthService.login($scope.user);
+            
+    }
 }

@@ -11,6 +11,7 @@ angular
  
   'directives',
   'services',
+  'providers',
   
   'login',
   'dashboard'

@@ -1,14 +1,14 @@
 <div class="wrapper">
-<form class="form-center animated fadeIn">       
+<form class="form-center animated fadeIn" ng-submit="submit(user)">       
   <div class="login-form">
     <center><h5>Login</h5></center>  
     <div class="form-group">
-        <input type="text" class="form-control login-field" value="" placeholder="Enter your email" id="login-name" autofocus="">
+        <input type="text" ng-model="user.username" class="form-control login-field" value="" placeholder="Enter your email" id="login-name" autofocus="">
         <label class="login-field-icon fui-user" for="login-name"></label>
     </div>
 
     <div class="form-group">
-        <input type="password" class="form-control login-field" value="" placeholder="Password" id="login-pass">
+        <input type="password" ng-model="user.password" class="form-control login-field" value="" placeholder="Password" id="login-pass">
         <label class="login-field-icon fui-lock" for="login-pass"></label>
     </div>
           
