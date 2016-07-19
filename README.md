@@ -1,5 +1,8 @@
 ### Angualr Starter Kit
 
+#### Note
+This starter kit is built for Angular 1. Angular 2 starter kit will be available soon. Keep watching...
+
 #### Motivation
 If you are starting new project in AngularJs and you want to write moduler and maintainable application that can be use by
 you or your team of any size and you dont want to spend more time on defining your folder structure. Then this starter kit
